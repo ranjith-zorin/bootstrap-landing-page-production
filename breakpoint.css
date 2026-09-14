@@ -1,0 +1,58 @@
+/* *
+{
+    overflow-x: hidden;
+} */
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.bg-why-choose
+{
+  background-image: url("./assets/why-choose-bg.png");
+  
+}
+.bg-world {
+  background-image: url("./assets/world.png");
+  background-repeat: no-repeat;
+  /* background-position:; */
+  background-position-x: center;
+  background-position-y: 120px;
+  /* padding-top: 0%;
+padding-bottom: 15%; */
+
+  height: 95vh;
+}
+.bg-hero
+{
+  background-image: url("./assets/bg-hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (max-width: 576px) {
+  .btn-mobile {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .girl-image {
+    width: 100%;
+  }
+  .w-max {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 2000px) {
+  .w-max {
+    width: 280px;
+  }
+  .btn-mobile {
+    width: 210px;
+  }
+}
+@media screen and(max-width:992px) {
+}
+.form-control {
+  padding: 10px;
+}

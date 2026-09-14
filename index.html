@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="breakpoint.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
@@ -26,9 +26,9 @@
     </style>
   </head>
   <body>
-    <div class="p-5" style="background-color: rgba(222, 123, 123, 0.119)">
-      <nav class="navbar navbar-expand-md">
-        <div class="container">
+    <div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container px-2">
           <a href="" class="navbar-brand"
             ><span class="brand-color" style="color: #fb3f6c"> PEBISINS </span
             >ULUNG .
@@ -60,8 +60,8 @@
                 <a href="" class="nav-link">Contact Us</a>
               </li>
               <button
-                class="btn btn-outline-primary rounded-pill p-2"
-                style="width: 9rem"
+                class="btn btn-outline-primary rounded-pill p-2 align-self-center"
+                style="width: 9rem; color: black"
               >
                 Let's Talk
               </button>
@@ -69,30 +69,31 @@
           </div>
         </div>
       </nav>
-      <section class="container py-5" >
-      
-        <div class="row">
-          <div class="col-8 d-flex flex-column gap-4">
+      <section class="container px-0 py-sm-5">
+        <div class="row bg-hero">
+          <div class="row col-lg-12 col-xl-5 d-flex flex-column gap-4 px-1">
             <div
-              class="d-flex justify-content-around align-items-center w-50"
+              class="d-flex flex-wrap column-gap-3 align-items-center"
               style="color: #f17216"
             >
               <i class="bi bi-patch-check-fill" style="font-size: x-large"></i>
 
               <p class="m-0">Best Business Platform - World Record 2021</p>
             </div>
-            <h1 class="fw-bold display-2">
+            <h1 class="fw-bold display-2 px-0">
               Reach Your Business Goals in Record Time
             </h1>
-            <p class="text-muted lh-lg" style="max-width: 53%">
+            <p class="text-muted lh-lg">
               Support small business and join the nationwide movement to
               encourage commercial support for the millions of minority owned
               businesses helping world economy.
             </p>
 
-            <div class="d-flex justify-content-between w-50 align-items-center">
+            <div
+              class="col-sm-9 col-lg-6 d-flex flex-column flex-sm-row justify-content-between justify-content-md-around align-items-center row-gap-3 column-gap-lg-5 w-100"
+            >
               <button
-                class="btn btn-primary rounded-pill text-light w-50 fw-bold"
+                class="btn btn-primary btn-mobile rounded-pill text-light fw-bold"
               >
                 Get Started
               </button>
@@ -103,279 +104,414 @@
               </h5>
             </div>
           </div>
-          <div class="col-4">
-
-            <img src="./assets/hero-girl.png" alt="" srcset="">
+          <div
+            class="col-lg-12 col-xl-7 d-sm-flex justify-content-sm-center align-items-sm-center"
+          >
+            <img
+              class="girl-image"
+              src="./assets/hero-girl.png"
+              alt=""
+              srcset=""
+            />
           </div>
         </div>
       </section>
     </div>
-
-    <div class="container">
-      <div class="d-flex justify-content-between p-5">
-        <h4 class="text-muted"><i class="bi bi-slack"></i>slack</h4>
-        <h4 class="text-muted"><i class="bi bi-ubuntu"></i>Ubuntu</h4>
-        <h4 class="text-muted"><i class="bi bi-microsoft"></i> Microsoft</h4>
-        <h4 class="text-muted">Zoover</h4>
-      </div>
-      <div class="row">
-        <div class="col-5">
-          <h6 class="fw-normal" style="color: #f17216; font-size: 1rem">
-            SERVICES
-          </h6>
-          <h4 class="lh-lg fs-3 fw-bold" style="color: #282c4b">
-            Our Capabilities
-          </h4>
-          <p class="lh-lg fw-normal" style="font-size: 20px; max-width: 65%">
-            We will bring the breathe of our experience and industry knowledge
-            to help you succeed
-          </p>
-        </div>
-        <div class="col-7 row">
-          <div class="col d-flex flex-column gap-4">
-            <i class="bi bi-shop fs-2 text-primary-emphasis"></i>
-            <h6>Market Forcest</h6>
-            <p class="lh-base">
-              Leverage agile framework to provide a robust high level synopsys
-              overviews
-            </p>
-          </div>
-          <div class="col d-flex flex-column gap-4">
-            <i class="bi bi-wallet-fill fs-2 text-success"></i>
-            <h6>Market Forcest</h6>
-            <p class="lh-base">
-              Leverage agile framework to provide a robust high level synopsys
-              overviews
-            </p>
-          </div>
-          <div class="col d-flex flex-column gap-4">
-            <i class="bi bi-file-earmark-bar-graph-fill fs-2 text-danger"></i>
-            <h6>Market Forcest</h6>
-            <p class="lh-base">
-              Leverage agile framework to provide a robust high level synopsys
-              overviews
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="p-4">
-      <div class="row p-4" style="background-color: #282c4b">
-        <div class="col d-flex justify-content-center align-items-center">
-          <img src="./assets/why-choose-us.png" alt="" srcset="" />
-        </div>
-        <div class="col d-flex flex-column text-light row-gap-4">
-          <h5 class="fw-normal fs-6" style="color: #f17216">WHY CHOOSE US</h5>
-          <h3 class="fw-bold lh-lg fs-2" style="max-width: 50%">
-            Take on any Challenge of the Digital World
-          </h3>
+    <div class="d-flex flex-column row-gap-5 mt-5">
+      <div class="container d-flex flex-column row-gap-5">
+        <div
+          class="d-flex flex-wrap justify-content-between align-items-center row-gap-2"
+        >
           <div
-            class="d-flex justify-content-around align-items-center w-50 gap-2"
+            class="d-flex column-gap-2 align-items-center justify-content-center"
           >
-            <i class="bi bi-check-circle-fill" style="font-size: larger"></i>
-            <h5 class="w-75 mb-0">Corporate Financial Advisory</h5>
-          </div>
-          <div class="d-flex justify-content-around align-items-center w-50">
-            <i class="bi bi-check-circle-fill" style="font-size: larger"></i>
-            <h5 class="w-75 mb-0">Development of Financial Models</h5>
-          </div>
-          <div class="d-flex justify-content-around align-items-center w-50">
-            <i class="bi bi-check-circle-fill" style="font-size: larger"></i>
-            <h5 class="w-75 mb-0">Deal Structuring</h5>
-          </div>
-          <button class="btn btn-primary rounded-pill text-light w-25 fw-bold">
-            Get Started
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="container d-flex flex-column row-gap-5">
-      <div class="row row-gap-5">
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div
-                class="card-body d-flex justify-content-center align-items-center"
-              >
-                <img src="./assets/bootstrap-2.png" alt="" srcset="" />
-              </div>
-              <h5 class="text-center">This is some text within a card body.</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div
-                class="card-body d-flex justify-content-center align-items-center"
-              >
-                <img src="./assets/bootstrap-1.png" alt="" srcset="" />
-              </div>
-              <h5 class="text-center">This is some text within a card body.</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div
-                class="card-body d-flex justify-content-center align-items-center"
-              >
-                <img src="./assets/bootstrap-3.png" alt="" srcset="" />
-              </div>
-              <h5 class="text-center">This is some text within a card body.</h5>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="card">
-              <div
-                class="card-body d-flex justify-content-center align-items-center"
-              >
-                <img src="./assets/bootstrap-4.png" alt="" srcset="" />
-              </div>
-              <h5 class="text-center">This is some text within a card body.</h5>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <div
-                class="card-body d-flex justify-content-center align-items-center"
-              >
-                <img src="./assets/bootstrap-5.png" alt="" srcset="" />
-              </div>
-              <h5 class="text-center">This is some text within a card body.</h5>
-            </div>
+            <i class="bi bi-slack fs-4"></i>
+            <h4 class="text-muted mb-0">slack</h4>
           </div>
           <div
-            class="col d-flex flex-column row-gap-3 align-items-start justify-content-center"
+            class="d-flex column-gap-2 align-items-center justify-content-center"
           >
-            <h5 class="fw-normal text-warning fs-6">PROJECTS</h5>
-            <h4 class="fw-bold w-50 lh-base">Selected Works from Us</h4>
-            <button
-              class="btn btn-outline-primary rounded-pill text-black p-2"
-              style="font-size: small"
+            <i class="bi bi-ubuntu fs-4"></i>
+            <h4 class="text-muted mb-0">Ubuntu</h4>
+          </div>
+          <div
+            class="d-flex column-gap-2 align-items-center justify-content-center"
+          >
+            <i class="bi bi-microsoft fs-4"></i>
+            <h4 class="text-muted mb-0">Microsoft</h4>
+          </div>
+          <div
+            class="d-flex column-gap-2 align-items-center justify-content-center"
+          >
+            <h4 class="text-muted mb-0 fw-bolder">Zoover</h4>
+          </div>
+        </div>
+        <div class="row justify-content-lg-between row-gap-5">
+          <div
+            class="col-12-md col-lg-4 d-lex flex-column align-items-center justify-content-center"
+          >
+            <h6
+              class="fw-normal text-center text-lg-start"
+              style="color: #f17216; font-size: 1rem"
             >
-              See More
-            </button>
+              SERVICES
+            </h6>
+            <h4
+              class="lh-lg fs-3 fw-bold text-center text-lg-start"
+              style="color: #282c4b"
+            >
+              Our Capabilities
+            </h4>
+            <div
+              class="d-flex justify-content-center align-items-center justify-content-lg-start"
+            >
+              <p
+                class="lh-sm fw-normal text-center text-lg-start w-max"
+                style="font-size: 20px"
+              >
+                We will bring the breathe of our experience and industry
+                knowledge to help you succeed
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12-md col-lg-8 m-0 row d-sm-flex flex-sm-column justify-content-sm-center align-items-sm-center d-lg-flex flex-lg-row"
+          >
+            <div
+              class="col-md-12 col-lg-4 d-flex flex-column row-gap-2 align-items-sm-center align-items-lg-start justify-content-start justify-content-center"
+            >
+              <i class="bi bi-shop fs-2 text-primary-emphasis"></i>
+              <h6>Market Forcest</h6>
+              <p class="lh-base text-center text-xl-start">
+                Leverage agile framework to provide a robust high level synopsys
+                overviews
+              </p>
+            </div>
+            <div
+              class="col-md-12 col-lg-4 d-flex flex-column row-gap-2 align-items-sm-center align-items-lg-start justify-content-start justify-content-center"
+            >
+              <i class="bi bi-wallet-fill fs-2 text-success"></i>
+              <h6>Market Forcest</h6>
+              <p class="lh-base text-center text-xl-start">
+                Leverage agile framework to provide a robust high level synopsys
+                overviews
+              </p>
+            </div>
+            <div
+              class="col-md-12 col-lg-4 d-flex flex-column row-gap-2 align-items-sm-center align-items-lg-start justify-content-start justify-content-center"
+            >
+              <i class="bi bi-file-earmark-bar-graph-fill fs-2 text-danger"></i>
+              <h6>Market Forcest</h6>
+              <p class="lh-base text-center text-xl-start">
+                Leverage agile framework to provide a robust high level synopsys
+                overviews
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <div class="d-flex flex-column">
-            <h6 style="color: #f17216">TESTIMONIAL</h6>
-            <h4 class="fw-bold fs-3 lh-lg" style="max-width: 230px">
-              What Our Customer's Say
-            </h4>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="d-flex flex-column row-gap-4 p-3">
+      <div class="p-2">
+        <div class="row p-4 row-gap-3 bg-why-choose">
+          <div
+            class="col-md-12 col-lg-6 d-flex justify-content-center align-items-center"
+          >
             <img
-              src="./assets/quote.png"
+              src="./assets/why-choose-us.png"
               alt=""
               srcset=""
-              width="38px"
-              height="28px"
+              class="girl-image"
             />
-            <p class="m-0">
-              I really like the team for example, a relationship-focused
-              performance expectation might be that the employee sustain
-              collegial working relationships with her peers, subordinates and
-              customers.
-            </p>
-            <div
-              class="d-flex justify-content-between align-items-center"
-              style="width: 30%"
+          </div>
+          <div
+            class="col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start align-items-center align-items-lg-start text-light row-gap-4"
+          >
+            <h5
+              class="fw-normal fs-6 text-center text-lg-start"
+              style="color: #f17216"
             >
-              <img
-                src="./linus.jpeg"
-                alt=""
-                srcset=""
-                class="rounded-circle"
-                width="60px"
-                height="60px"
-              />
-              <h6 class="fw-bold m-0">Linus torvalds</h6>
+              WHY CHOOSE US
+            </h5>
+            <h3 class="fw-bold lh-lg fs-2">
+              Take on any Challenge of the Digital World
+            </h3>
+            <div class="d-flex flex-column align-items-center row-gap-3">
+              <div class="d-flex column-gap-4 w-100">
+                <i
+                  class="bi bi-check-circle-fill"
+                  style="font-size: larger"
+                ></i>
+                <h5 class="w-75 mb-0">Corporate Financial Advisory</h5>
+              </div>
+              <div class="d-flex column-gap-4 w-100">
+                <i
+                  class="bi bi-check-circle-fill"
+                  style="font-size: larger"
+                ></i>
+                <h5 class="w-75 mb-0">Development of Financial Models</h5>
+              </div>
+              <div class="d-flex column-gap-4 w-100">
+                <i
+                  class="bi bi-check-circle-fill"
+                  style="font-size: larger"
+                ></i>
+                <h5 class="w-75 mb-0">Deal Structuring</h5>
+              </div>
             </div>
+            <button
+              class="btn btn-primary btn-mobile rounded-pill text-light fw-bold"
+            >
+              Get Started
+            </button>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <img src="./assets/business-girl.png" alt="" srcset="" />
-        </div>
-        <div class="col d-flex flex-column gap-5">
-          <h5 style="color: #f17216; font-size: small" class="fw-normal">
-            CONTACT US
-          </h5>
-          <h3 style="color: #282c4b" class="fw-bold display-6">
-            Let's Collaborate Now!
-          </h3>
-          <form class="d-flex flex-column row-gap-4">
-            <div class="form-group d-flex flex-column row-gap-2">
-              <label for="name-text">Full Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name-text"
-                aria-describedby="emailHelp"
-                placeholder="Input Your Name"
-              />
+      <div class="px-lg-5 d-flex flex-column row-gap-5">
+        <div class="row row-gap-5 justify-content-center">
+          <div class="row row-gap-3 column-gap-md-4 justify-content-md-center">
+            <div class="col-12 col-md-auto col-lg-3 p-0">
+              <div class="card">
+                <div
+                  class="card-body d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/bootstrap-2.png"
+                    alt=""
+                    srcset=""
+                    class="girl-image"
+                  />
+                </div>
+                <h5 class="text-center">
+                  This is some text within a card body.
+                </h5>
+              </div>
             </div>
-            <div class="row">
-              <div
-                class="form-group col form-group d-flex flex-column row-gap-2"
+            <div class="col-12 col-md-auto col-lg-3 p-0">
+              <div class="card">
+                <div
+                  class="card-body d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/bootstrap-1.png"
+                    alt=""
+                    srcset=""
+                    class="girl-image"
+                  />
+                </div>
+                <h5 class="text-center">
+                  This is some text within a card body.
+                </h5>
+              </div>
+            </div>
+            <div class="col-12 col-md-auto col-lg-3 p-0">
+              <div class="card">
+                <div
+                  class="card-body d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/bootstrap-3.png"
+                    alt=""
+                    srcset=""
+                    class="girl-image"
+                  />
+                </div>
+                <h5 class="text-center">
+                  This is some text within a card body.
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="row row-gap-3 column-gap-md-4 justify-content-md-center">
+            <div class="col-12 col-md-auto col-lg-3 p-0">
+              <div class="card">
+                <div
+                  class="card-body d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/bootstrap-4.png"
+                    alt=""
+                    srcset=""
+                    class="girl-image"
+                  />
+                </div>
+                <h5 class="text-center">
+                  This is some text within a card body.
+                </h5>
+              </div>
+            </div>
+            <div class="col-12 col-md-auto col-lg-3 p-0">
+              <div class="card">
+                <div
+                  class="card-body d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/bootstrap-5.png"
+                    alt=""
+                    srcset=""
+                    class="girl-image"
+                  />
+                </div>
+                <h5 class="text-center">
+                  This is some text within a card body.
+                </h5>
+              </div>
+            </div>
+            <div
+              class="col-12 col-md-auto col-lg-3 p-0 d-flex flex-column row-gap-3 align-items-center justify-content-center"
+            >
+              <h5 class="fw-normal text-warning fs-6">PROJECTS</h5>
+              <h4 class="fw-bold lh-base">Selected Works from Us</h4>
+              <button
+                class="btn btn-outline-primary rounded-pill text-black p-2"
+                style="font-size: small"
               >
-                <label for="email">Email</label>
+                See More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column row-gap-3 p-5">
+          <div>
+            <div class="d-flex flex-column align-items-start">
+              <h6 style="color: #f17216">TESTIMONIAL</h6>
+              <h4 class="text-md-center text-lg-start fw-bold fs-3 lh-lg">
+                What Our Customer's Say
+              </h4>
+            </div>
+          </div>
+          <div
+            class="bg-world row d-flex justify-content-xl-end align-items-center justify-content-center"
+          >
+            <div
+              class="d-flex flex-column row-gap-4 shadow p-xl-5 bg-light col-4 p-4 col-12 col-lg-6 col-xl-4"
+            >
+              <img
+                src="./assets/quote.png"
+                linus
+                alt=""
+                srcset=""
+                width="38px"
+                height="28px"
+              />
+              <p class="m-0">
+                I really like the team for example, a relationship-focused
+                performance expectation might be that the employee sustain
+                collegial working relationships with her peers, subordinates and
+                customers.
+              </p>
+              <div
+                class="d-flex flex-wrap justify-content-between align-items-center column-gap-4"
+              >
+                <img
+                  src="./linus.jpeg"
+                  alt=""
+                  srcset=""
+                  class="rounded-circle"
+                  width="60px"
+                  height="60px"
+                />
+                <h6 class="fw-bold m-0">Linus torvalds</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-gap-3">
+          <div
+            class="col-md-12 col-xl-6 d-sm-flex justify-content-sm-center align-items-sm-center"
+          >
+            <img
+              src="./assets/business-girl.png"
+              alt=""
+              srcset=""
+              class="girl-image"
+            />
+          </div>
+          <div class="col-md-12 col-xl-6 d-flex flex-column gap-5">
+            <h5
+              style="color: #f17216; font-size: small"
+              class="fw-normal text-center"
+            >
+              CONTACT US
+            </h5>
+            <h3 style="color: #282c4b" class="fw-bold display-6 text-center">
+              Let's Collaborate Now!
+            </h3>
+            <form class="d-flex flex-column row-gap-4">
+              <div class="form-group d-flex flex-column row-gap-2">
+                <label for="name-text">Full Name</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control"
-                  id="email"
-                  placeholder="Input Your Email"
+                  id="name-text"
+                  aria-describedby="emailHelp"
+                  placeholder="Input Your Name"
                 />
               </div>
-              <div
-                class="form-group col form-group d-flex flex-column row-gap-2"
-              >
-                <label for="email">Date</label>
-                <input class="form-control" placeholder="Select Date" />
+              <div class="row row-gap-3 column-gap-2">
+                <div
+                  class="form-group col-12 col-sm-5 form-group d-flex flex-column row-gap-2 p-0"
+                >
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Input Your Email"
+                  />
+                </div>
+                <div
+                  class="form-group col-12 col-sm-6 form-group d-flex flex-column row-gap-2 p-0"
+                >
+                  <label for="email">Date</label>
+                  <input class="form-control" placeholder="Select Date" />
+                </div>
               </div>
-            </div>
-            <div class="form-group form-group d-flex flex-column row-gap-2">
-              <label for="name-text">Message</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name-text"
-                aria-describedby="emailHelp"
-                placeholder="Write Message ..."
-              />
-            </div>
-            <button
-              type="submit"
-              class="btn btn-primary rounded-pill text-light w-25 fw-bold"
-            >
-              Send Message
-            </button>
-          </form>
+              <div class="form-group form-group d-flex flex-column row-gap-2">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="6"
+                  placeholder="Write Message..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-mobile rounded-pill text-light fw-bold align-self-center align-self-sm-start"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
       </div>
-    </div>
-    <footer class="py-5 mt-5 text-light" style="background-color: #282c4b">
-      <div class="container d-flex justify-content-between align-items-center">
-        <h3>PEBISNIS ULUNG.</h3>
-        |
+      <footer class="py-5 text-light" style="background-color: #282c4b">
+        <div
+          class="px-5 d-flex flex-column flex-lg-row align-items-center justify-content-between"
+        >
+          <h3>PEBISNIS ULUNG. |</h3>
 
-        <p>&#169;Copyright. Pebisins Ulung.All rights reserved</p>
-        <p>Privacy Policy</p>
-        <p>Terms</p>
-        <h6>Get in Touch </h6>
-        <div class="d-flex justify-content-between align-content-center" style="width:10%;">
-          <div class="icon-box bg-body rounded-3 px-2"><i class="bi bi-facebook     text-primary fs-4"></i></div>
-          <div class="icon-box bg-body px-2 rounded-3"><i class="bi bi-linkedin     text-primary fs-4"></i></div>
-          <div class="icon-box bg-body px-2 rounded-3"><i class="bi bi-instagram    text-primary  fs-4"></i></div>
+          <p>&#169;Copyright. Pebisins Ulung.All rights reserved</p>
+          <p>Privacy Policy</p>
+          <p>Terms</p>
+          <h6>Get in Touch</h6>
+          <div
+            class="d-flex flex-wrap justify-content-between align-content-center row-gap-2 row-gap-lg-0 column-gap-4 column-gap-lg-4"
+          >
+            <div class="icon-box bg-body rounded-3 px-2">
+              <i class="bi bi-facebook text-primary fs-4"></i>
+            </div>
+            <div class="icon-box bg-body px-2 rounded-3">
+              <i class="bi bi-linkedin text-primary fs-4"></i>
+            </div>
+            <div class="icon-box bg-body px-2 rounded-3">
+              <i class="bi bi-instagram text-primary fs-4"></i>
+            </div>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
