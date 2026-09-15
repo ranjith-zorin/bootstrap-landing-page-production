@@ -3214,6 +3214,12 @@ fieldset:disabled .btn {
   --bs-btn-disabled-bg: #fb3f6c;
   --bs-btn-disabled-border-color: #fb3f6c;
   outline: rgb(255, 255, 255) solid 2px;
+  background: #ff698d;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 105, 141, 1) 0%,
+    rgba(251, 63, 108, 1) 100%
+  );
 }
 
 .btn-secondary {

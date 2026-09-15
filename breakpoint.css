@@ -3,15 +3,19 @@
     overflow-x: hidden;
 } */
 
+
+@import url("https://fonts.googleapis.com/css?family=Inconsolata");
+.monospace {
+  font-family: "Inconsolata", monospace;
+  padding-top: 4px;
+}
 .row {
   margin-right: 0px;
   margin-left: 0px;
 }
 
-.bg-why-choose
-{
+.bg-why-choose {
   background-image: url("./assets/why-choose-bg.png");
-  
 }
 .bg-world {
   background-image: url("./assets/world.png");
@@ -24,11 +28,15 @@ padding-bottom: 15%; */
 
   height: 95vh;
 }
-.bg-hero
-{
+.bg-hero {
   background-image: url("./assets/bg-hero.png");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.card
+{
+  padding-bottom: 0.5rem;
 }
 @media screen and (max-width: 576px) {
   .btn-mobile {
