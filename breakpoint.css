@@ -1,8 +1,39 @@
-/* *
-{
-    overflow-x: hidden;
-} */
+body {
+  max-width: 1921px;
+  margin: auto;
+}
 
+.form-control {
+  border: none;
+}
+
+.select-work {
+  max-width: 300px;
+}
+.customer-say {
+  max-width: 340px;
+}
+.hover-grey {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.hover-grey:hover {
+  filter: grayscale(0%);
+}
+.form-control {
+  background-color: #fff8f8;
+}
+
+.card-body {
+  padding-left: 5px;
+  padding-right: 5px;
+  /* background-color: red */
+}
+.vl {
+  border-left: 2px solid rgb(218, 216, 216);
+  height: 36px;
+  /* position: absolute; */
+}
 
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 .monospace {
@@ -16,27 +47,37 @@
 
 .bg-why-choose {
   background-image: url("./assets/why-choose-bg.png");
+  background-size: cover;
 }
 .bg-world {
   background-image: url("./assets/world.png");
   background-repeat: no-repeat;
   /* background-position:; */
-  background-position-x: center;
+  background-position-x: 25%;
   background-position-y: 120px;
+  height: 720px;
   /* padding-top: 0%;
 padding-bottom: 15%; */
 
-  height: 95vh;
+  /* height: 90vh; */
 }
 .bg-hero {
   background-image: url("./assets/bg-hero.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: start;
 }
 
-.card
-{
-  padding-bottom: 0.5rem;
+.we-will {
+  max-width: 299px;
+}
+.card {
+  padding-bottom: 1rem;
+}
+label {
+  color: #14183e;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 1.2rem;
 }
 @media screen and (max-width: 576px) {
   .btn-mobile {
@@ -48,6 +89,21 @@ padding-bottom: 15%; */
   }
   .w-max {
     width: 100%;
+  }
+  .hover-grey {
+    width: 120px;
+    /* height: 80px; */
+    margin: auto;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .why-choose-image {
+    width: 100%;
+  }
+  .arrow-line
+  {
+    bottom:0;
   }
 }
 
@@ -63,4 +119,13 @@ padding-bottom: 15%; */
 }
 .form-control {
   padding: 10px;
+}
+@media screen and (min-width: 1310px) {
+  .why-choose-image {
+    height: 100%;
+    width: 65%;
+  }
+  .card-container {
+    width: 30%;
+  }
 }

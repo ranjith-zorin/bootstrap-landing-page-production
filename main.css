@@ -2243,7 +2243,7 @@ progress {
   background-color: var(--bs-body-bg);
   background-clip: padding-box;
   border: var(--bs-border-width) solid var(--bs-border-color);
-  border-radius: var(--bs-border-radius);
+  /* border-radius: var(--bs-border-radius); */
   transition:
     border-color 0.15s ease-in-out,
     box-shadow 0.15s ease-in-out;
@@ -2262,9 +2262,8 @@ progress {
 .form-control:focus {
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
-  border-color: rgb(99.2156862745%, 62.3529411765%, 71.1764705882%);
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(251, 63, 108, 0.25);
+  outline: solid 2px black;
+  /* box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25); */
 }
 .form-control::-webkit-date-and-time-value {
   min-width: 85px;
