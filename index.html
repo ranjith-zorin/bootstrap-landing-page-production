@@ -28,8 +28,11 @@
   <body>
     <div>
       <nav class="navbar navbar-expand-lg pt-5">
-        <div class="container px-2">
-          <a href="" class="navbar-brand fw-bold fs-4 text-xl-center"
+        <div
+          class="container-fluid"
+          style="padding-left: 6%; padding-right: 6%"
+        >
+          <a href="" class="navbar-brand fw-bold fs-4 text-xl-start flex-grow-1"
             ><span class="brand-color" style="color: #fb3f6c"> PEBISINS </span
             >ULUNG <span style="color: #fb3f6c">. </span>
           </a>
@@ -49,7 +52,9 @@
             id="navbarNAV"
             role="navigation"
           >
-            <ul class="navbar-nav container-fluid justify-content-around">
+            <ul
+              class="navbar-nav container-fluid justify-content-around flex-grow-1"
+            >
               <li class="nav-item">
                 <a href="" class="nav-link">Services</a>
               </li>
@@ -74,31 +79,37 @@
         </div>
       </nav>
 
-      <section class="container px-0 py-sm-5">
+      <section style="padding-left: 6%; padding-right: 6%" class="mt-4">
         <div class="row bg-hero">
-          <div class="row col-lg-12 col-xl-5 d-flex flex-column gap-4 px-1">
+          <div
+            class="row col-lg-12 col-xl-7 d-flex flex-column justify-content-center gap-4 p-0"
+          >
             <div
-              class="d-flex flex-wrap column-gap-3 align-items-center"
+              class="d-flex flex-wrap column-gap-3 align-items-center p-0"
               style="color: #f17216"
             >
               <i class="bi bi-patch-check-fill" style="font-size: x-large"></i>
 
               <p class="m-0">Best Business Platform - World Record 2021</p>
             </div>
-            <h1 class="fw-bold display-2 px-0">
+            <h1
+              class="fw-bold display-2 px-0 reach-business"
+              style="color: #282c4b; max-width: 750px"
+            >
               Reach Your Business Goals in Record Time
             </h1>
-            <p class="text-muted lh-lg">
+            <p class="text-smuted lh-lg p-0" style="max-width: 500px">
               Support small business and join the nationwide movement to
               encourage commercial support for the millions of minority owned
               businesses helping world economy.
             </p>
 
             <div
-              class="col-sm-9 col-lg-6 d-flex flex-column flex-sm-row align-items-center row-gap-3 column-gap-sm-4 column-gap-lg-5 w-100"
+              class="col-sm-9 col-lg-6 d-flex flex-column flex-sm-row align-items-center row-gap-3 column-gap-sm-4 column-gap-lg-5 w-100 p-0"
             >
               <button
                 class="btn btn-primary btn-mobile rounded-pill text-light fw-bold"
+                style="min-width: 190px"
               >
                 Get Started
               </button>
@@ -112,23 +123,26 @@
             </div>
           </div>
           <div
-            class="col-lg-12 col-xl-7 d-sm-flex justify-content-sm-center align-items-sm-center"
+            class="col-lg-12 col-xl-5 d-sm-flex justify-content-sm-center align-items-sm-center"
           >
             <img
               class="girl-image"
               src="./assets/hero-girl.png"
               alt=""
               srcset=""
-              style="max-width: 100%"
+              style="height: 100%"
             />
           </div>
         </div>
       </section>
     </div>
-    <div class="d-flex flex-column mt-5" style="row-gap: 10rem">
-      <div class="container d-flex flex-column row-gap-5">
+    <div class="d-flex flex-column mt-5">
+      <div
+        class="container-fluid d-flex flex-column row-gap-5"
+        style="padding-left: 6%; padding-right: 6%"
+      >
         <div
-          class="d-flex flex-wrap justify-content-between align-items-center row-gap-2"
+          class="d-flex flex-nowrap flex-sm-wrap flex-column flex-sm-row justify-content-center justify-content-xl-between align-items-center row-gap-4"
         >
           <img
             class="hover-grey"
@@ -136,7 +150,7 @@
             alt=""
             srcset=""
             width="200px"
-            height="80px"
+            height="auto"
           />
           <img
             class="hover-grey"
@@ -144,15 +158,15 @@
             alt=""
             srcset=""
             width="200px"
-            height="130px"
+            height="auto"
           />
           <img
             class="hover-grey"
             src="./assets/micro.png"
             alt=""
             srcset=""
-            width="220px"
-            height="110px"
+            width="200px"
+            height="auto"
           />
           <img
             class="hover-grey"
@@ -160,10 +174,11 @@
             alt=""
             srcset=""
             width="200px"
-            height="98px"
+            height="auto"
+            class="mt-4"
           />
         </div>
-        <div class="row justify-content-lg-between row-gap-5">
+        <div class="row justify-content-lg-between" style="row-gap: 30px">
           <div
             class="col-12-md col-lg-4 d-flex flex-column justify-content-center position-relative"
           >
@@ -192,13 +207,13 @@
             </div>
 
             <img
-              class="position-absolute"
+              class="position-absolute arrow-line"
               src="./assets/arrow-line.png"
               alt=""
               srcset=""
               width="86px "
               height="140px"
-              style="right: 2%; top: 100%"
+              style="right: 30%; top: 100%"
             />
           </div>
           <div
@@ -264,9 +279,11 @@
         </div>
       </div>
       <div class="p-2 p-xl-3 mt-5">
-        <div class="row p-4 row-gap-3 bg-why-choose">
+        <div
+          class="row p-3 p-sm-4 row-gap-5 justify-content-between bg-why-choose"
+        >
           <div
-            class="col-lg-12 col-xl-7 d-flex justify-content-center align-items-center"
+            class="col-lg-12 col-xl-5 d-flex justify-content-center justify-content-xl-center align-items-center"
           >
             <img
               src="./assets/why-choose-us.png"
@@ -276,10 +293,10 @@
             />
           </div>
           <div
-            class="col-lg-12 col-xl-5 p-5 d-flex flex-column justify-content-center justify-content-xl-start align-items-center align-items-xl-start text-light row-gap-3"
+            class="col-lg-12 col-xl-7 p-sm-5 d-flex flex-column justify-content-center justify-content-xl-center align-items-center align-items-xl-start text-light row-gap-3"
           >
             <h5
-              class="fw-medium fs-6 text-center text-lg-start"
+              class="fw-medium fs-5 text-center text-lg-start"
               style="color: #f17216"
             >
               WHY CHOOSE US
@@ -288,37 +305,32 @@
               Take on any Challenge of the Digital World
             </h3>
             <div
-              class="d-flex flex-column align-items-center justify-content-xl-start row-gap-3"
+              class="d-flex flex-column align-items-center justify-content-xl-start row-gap-3 w-100 p-4 p-s-0"
             >
               <div
-                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100"
+                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100 align-items-center"
+                style="color: #ced1e5"
               >
-                <i
-                  class="bi bi-check-circle-fill"
-                  style="font-size: larger"
-                ></i>
+                <i class="bi bi-check-circle-fill" style="font-size: 28px"></i>
                 <h5 class="w-75 mb-0">Corporate Financial Advisory</h5>
               </div>
               <div
-                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100"
+                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100 align-items-center"
+                style="color: #ced1e5"
               >
-                <i
-                  class="bi bi-check-circle-fill"
-                  style="font-size: larger"
-                ></i>
+                <i class="bi bi-check-circle-fill" style="font-size: 28px"></i>
                 <h5 class="w-75 mb-0">Development of Financial Models</h5>
               </div>
               <div
-                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100"
+                class="d-flex justify-content-center justify-content-xl-start column-gap-4 w-100 align-items-center"
+                style="color: #ced1e5"
               >
-                <i
-                  class="bi bi-check-circle-fill"
-                  style="font-size: larger"
-                ></i>
+                <i class="bi bi-check-circle-fill" style="font-size: 28px"></i>
                 <h5 class="w-75 mb-0">Deal Structuring</h5>
               </div>
               <button
                 class="btn btn-primary btn-mobile rounded-pill text-light fw-bold primary-btn-linear align-self-center align-self-xl-start mt-5"
+                style="min-width: 190px"
               >
                 Get Started
               </button>
@@ -326,136 +338,134 @@
           </div>
         </div>
       </div>
-      <div class="w-75 m-auto d-flex flex-column row-gap-5">
-        <div class="row row-gap-5">
-          <div
-            class="row row-gap-3 column-gap-md-5 justify-content-center align-items-center justify-content-xl-start align-items-lg-stretch"
-          >
-            <div class="col-12 col-md-auto col-xl-3 p-0 card-container">
-              <div class="card">
-                <div
-                  class="card-body d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    src="./assets/bootstrap-2.png"
-                    alt=""
-                    srcset=""
-                    class="girl-image"
-                    style="width: 100%"
-                  />
-                </div>
-                <h5 class="text-center fw-medium" style="color: #14183e">
-                  Cosmetic Forcest Marketing
-                </h5>
+      <div
+        class="container-fluid m-auto d-flex flex-column row-gap-5"
+        style="padding-left: 6%; padding-right: 6%"
+      >
+        <div
+          class="row gap-5 flex-wrap justify-content-center justify-content-xl-center selected-work-div align-items-center"
+        >
+          <div class="col-12 col-md-auto flex-xl-fill p-0 card-container">
+            <div class="card">
+              <div
+                class="card-body d-flex justify-content-center align-items-center p-3"
+              >
+                <img
+                  src="./assets/bootstrap-2.png"
+                  alt=""
+                  srcset=""
+                  class="girl-image"
+                  style="width: 100%"
+                />
               </div>
+              <h5 class="text-center fw-medium" style="color: #14183e">
+                Cosmetic Forcest Marketing
+              </h5>
             </div>
-            <div class="col-12 col-md-auto col-xl-3 p-0 card-container">
-              <div class="card">
-                <div
-                  class="card-body d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    src="./assets/bootstrap-1.png"
-                    alt=""
-                    srcset=""
-                    class="girl-image"
-                    style="width: 100%"
-                  />
-                </div>
-                <h5 class="text-center fw-medium" style="color: #14183e">
-                  Sales Analytic
-                </h5>
+          </div>
+          <div class="col-12 col-md-auto flex-xl-fill p-0 card-container">
+            <div class="card">
+              <div
+                class="card-body p-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/bootstrap-1.png"
+                  alt=""
+                  srcset=""
+                  class="girl-image"
+                  style="width: 100%"
+                />
               </div>
+              <h5 class="text-center fw-medium" style="color: #14183e">
+                Sales Analytic
+              </h5>
             </div>
-            <div class="col-12 col-md-auto col-xl-3 p-0 card-container">
-              <div class="card">
-                <div
-                  class="card-body d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    src="./assets/bootstrap-3.png"
-                    alt=""
-                    srcset=""
-                    class="girl-image"
-                    style="width: 100%"
-                  />
-                </div>
-                <h5 class="text-center fw-medium" style="color: #14183e">
-                  Fashion Store Mobile Apps
-                </h5>
+          </div>
+          <div class="col-12 col-md-auto flex-xl-fill p-0 card-container">
+            <div class="card">
+              <div
+                class="card-body p-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/bootstrap-3.png"
+                  alt=""
+                  srcset=""
+                  class="girl-image"
+                  style="width: 100%"
+                />
               </div>
+              <h5 class="text-center fw-medium" style="color: #14183e">
+                Fashion Store Mobile Apps
+              </h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-auto flex-xl-fill p-0 card-container">
+            <div class="card">
+              <div
+                class="card-body p-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/bootstrap-4.png"
+                  alt=""
+                  srcset=""
+                  class="girl-image"
+                  style="width: 100%"
+                />
+              </div>
+              <h5 class="text-center fw-medium" style="color: #14183e">
+                Laura’s Clore Branding Identity
+              </h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-auto flex-xl-fill p-0 card-container">
+            <div class="card">
+              <div
+                class="card-body p-3 d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="./assets/bootstrap-5.png"
+                  alt=""
+                  srcset=""
+                  class="girl-image"
+                  style="width: 100%"
+                />
+              </div>
+              <h5 class="text-center fw-medium" style="color: #14183e">
+                Seo Marketing
+              </h5>
             </div>
           </div>
           <div
-            class="row row-gap-3 column-gap-md-5 justify-content-center align-items-center justify-content-xl-start align-items-lg-stretch"
+            class="col-12 col-md-auto flex-xl-fill col-xl-3 p-0 d-flex flex-column row-gap-3 align-items-center align-items-xl-start justify-content-center card-container selected-work-us-div"
           >
-            <div class="col-12 col-md-auto col-xl-3 p-0 card-container">
-              <div class="card">
-                <div
-                  class="card-body d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    src="./assets/bootstrap-4.png"
-                    alt=""
-                    srcset=""
-                    class="girl-image"
-                    style="width: 100%"
-                  />
-                </div>
-                <h5 class="text-center fw-medium" style="color: #14183e">
-                  Laura’s Clore Branding Identity
-                </h5>
-              </div>
-            </div>
-            <div class="col-12 col-md-auto col-xl-3 p-0 card-container">
-              <div class="card">
-                <div
-                  class="card-body d-flex justify-content-center align-items-center"
-                >
-                  <img
-                    src="./assets/bootstrap-5.png"
-                    alt=""
-                    srcset=""
-                    class="girl-image"
-                    style="width: 100%"
-                  />
-                </div>
-                <h5 class="text-center fw-medium" style="color: #14183e">
-                  SEO Marketing 4.0
-                </h5>
-              </div>
-            </div>
-            <div
-              class="col-12 col-md-auto col-xl-3 p-0 d-flex flex-column row-gap-3 align-items-center align-items-xl-start justify-content-center card-container"
-              style="min-width: 356px"
+            <h5
+              class="fw-medium text-warning fs-5 text-center text-xl-start"
+              style="color: #f17216"
             >
-              <h5
-                class="fw-medium text-warning fs-6 text-center text-xl-start"
-                style="color: #f17216"
-              >
-                PROJECTS
-              </h5>
-              <h4
-                class="fw-bold lh-base text-center text-xl-start"
-                style="color: #14183e"
-              >
-                Selected Works from Us
-              </h4>
-              <button
-                class="btn btn-outline-primary rounded-pill text-black p-3 fw-bold w-50"
-                style="font-size: medium; color: #14183e; max-width: 140px"
-              >
-                See More
-              </button>
-            </div>
+              PROJECTS
+            </h5>
+            <h4
+              class="fw-bold lh-base text-center text-xl-start display-6 select-work-us"
+              style="color: #14183e"
+            >
+              Selected Works from Us
+            </h4>
+            <button
+              class="btn btn-outline-primary rounded-pill text-black p-3 fw-bold w-50"
+              style="font-size: small; color: #14183e; max-width: 140px"
+            >
+              See More
+            </button>
           </div>
         </div>
         <div class="d-flex flex-column row-gap-3">
           <div>
-            <div class="d-flex flex-column align-items-start row-gap-3">
+            <div
+              class="d-flex flex-column align-items-center align-items-xl-start row-gap-3"
+            >
               <h5 style="color: #f17216" class="fw-medium">TESTIMONIAL</h5>
               <h4
-                class="text-md-center text-lg-start fw-bold display-6 lh-sm customer-say"
+                class="text-center text-lg-start fw-bold display-6 lh-sm customer-say"
                 style="color: #14183e"
               >
                 What Our Customer's Say
@@ -463,44 +473,43 @@
             </div>
           </div>
           <div
-            class="bg-world row d-flex justify-content-xl-end align-items-center justify-content-center align-items-xl-start"
+            class="bg-world row d-flex justify-content-center justify-content-xl-end align-items-center align-items-xl-start"
           >
             <div
-              class="d-flex flex-column row-gap-4 shadow p-xl-4 bg-light col-4 p-4 col-12 col-lg-6 col-xl-5"
+              class="d-flex flex-column row-gap-4 shadow bg-light col-4 col-12 col-lg-6 col-xl-5 justify-content-center px-3 linus-container"
             >
               <img
                 src="./assets/quote.png"
                 linus
                 alt=""
                 srcset=""
-                width="38px"
-                height="28px"
+                class="quote"
               />
-              <p class="m-0">
+              <p class="m-0 lh-lg" style="color: #5d6473">
                 I really like the team for example, a relationship-focused
                 performance expectation might be that the employee sustain
                 collegial working relationships with her peers, subordinates and
                 customers.
               </p>
               <div
-                class="d-flex flex-wrap justify-content-between align-items-center column-gap-4"
+                class="d-flex flex-wrap column-gap-3 align-items-center column-gap-4 linus-sec"
               >
                 <img
                   src="./linus.jpeg"
                   alt=""
                   srcset=""
-                  class="rounded-circle"
-                  width="60px"
-                  height="60px"
+                  class="rounded-circle linus-div"
                 />
-                <h6 class="fw-bold m-0">Linus torvalds</h6>
+                <h6 class="fw-bold m-0 fs-6 fs-sm-5" style="color: #101d34">
+                  Linus torvalds
+                </h6>
               </div>
             </div>
           </div>
         </div>
         <div class="row row-gap-3">
           <div
-            class="col-md-12 col-xl-6 d-sm-flex justify-content-sm-center align-items-sm-center"
+            class="col-md-12 col-xl-6 d-sm-flex justify-content-sm-center align-items-sm-center justify-content-lg-center justify-content-xl-start"
           >
             <img
               src="./assets/business-girl.png"
@@ -509,7 +518,9 @@
               class="girl-image"
             />
           </div>
-          <div class="col-md-12 col-xl-5 d-flex flex-column gap-5">
+          <div
+            class="col-md-12 col-xl-6 d-flex flex-column gap-5 p-3 p-sm-0 mb-4 mb-sm-0"
+          >
             <h5
               style="color: #f17216; font-size: small"
               class="fw-medium text-center text-xl-start fs-5"
@@ -548,25 +559,30 @@
                 <div
                   class="form-group group col-12 col-xl-5 form-group d-flex flex-column row-gap-2 p-0 position-relative"
                 >
-                  <label for="date">Date</label>
-                  <input
-                    required
-                    type="text"
-                    class="form-control p-2 p-md-4 date filter"
-                    placeholder="Select Date"
-                  />
-
-                  <!-- <img
-                    src="./assets/calendar.png"
-                    alt=""
-                    srcset=""
-                    width="15px"
-                    height="15px"
-                    class="position-relative mobile-hide"
-                    style="bottom: 40%; left: 2%"
-                    
-                    
-                  /> -->
+                  <label for="email">Date</label>
+                  <div class="form-control date-input p-2" style="height: 72px">
+                    <div class="input-group flex-nowrap">
+                      <span
+                        class="input-group-text border-0 bg-transparent p-0"
+                        id="addon-wrapping"
+                      >
+                        <img
+                          class="mt-1"
+                          src="./assets/Calendar.png"
+                          alt=""
+                          srcset=""
+                        />
+                      </span>
+                      <input
+                        type="text"
+                        class="form-control mt-1 h-100 w-100"
+                        style="outline: 0"
+                        placeholder="Select Date"
+                        aria-label="Username"
+                        aria-describedby="addon-wrapping"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="form-group form-group d-flex flex-column row-gap-2">
@@ -584,18 +600,72 @@
               </div>
               <button
                 type="submit"
-                class="btn btn-primary btn-mobile rounded-pill text-light fw-bold align-self-center align-self-sm-start mt-5"
+                class="btn btn-primary btn-mobile rounded-pill text-light fw-bold align-self-center align-self-sm-start mt-sm-5"
+                style="min-width: 190px"
               >
                 Send Message
               </button>
             </form>
           </div>
         </div>
+        <footer
+          class="py-2 text-light d-none extra-large-screen"
+          style="background-color: #282c4b"
+        >
+          <div class="row p-xl-5 row-gap-3 row-gap-xl-0">
+            <div
+              class="col-12 col-xl-3 d-flex justify-content-center align-items-center"
+            >
+              <a href="" class="navbar-brand fw-bold fs-4 text-xl-center"
+                ><span class="brand-color" style="color: #fb3f6c">
+                  PEBISINS </span
+                >ULUNG <span style="color: #fb3f6c">. </span>
+              </a>
+            </div>
+            <div
+              class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-around align-items-xl-center"
+            >
+              <span class="vl mx-1"></span>
+              <p class="m-0 text-center text-xl-start">
+                &#169; Copyright. Pebisins Ulung.All rights reserved
+              </p>
+            </div>
+            <div
+              class="col-12 col-xl-2 d-flex align-items-center justify-content-center"
+            >
+              <div class="d-flex align-items-center column-gap-5">
+                <p class="m-0">Privacy Policy</p>
+                <p class="m-0">Terms</p>
+              </div>
+            </div>
+            <div
+              class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-center align-items-center column-gap-4"
+            >
+              <h6 class="m-0">Get in Touch</h6>
+              <div
+                class="d-flex flex-wrap justify-content-between align-content-center row-gap-2 row-gap-lg-2 column-gap-4 column-gap-lg-3"
+              >
+                <div class="icon-box bg-body rounded-3 px-2">
+                  <i class="bi bi-facebook text-primary fs-4"></i>
+                </div>
+                <div class="icon-box bg-body px-2 rounded-3">
+                  <i class="bi bi-linkedin text-primary fs-4"></i>
+                </div>
+                <div class="icon-box bg-body px-2 rounded-3">
+                  <i class="bi bi-instagram text-primary fs-4"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
-      <footer class="py-2 text-light" style="background-color: #282c4b">
-        <div class="row p-xl-5 row-gap-3 row-gap-xl-0">
+      <footer
+        class="py-2 text-light d-md-block"
+        style="background-color: #282c4b"
+      >
+        <div class="row p-xxl-5 footer-container row-gap-3">
           <div
-            class="col-12 col-xl-3 d-flex justify-content-center align-items-center"
+            class="col-12 col-xl-3 d-flex justify-content-center align-items-center width-100"
           >
             <a href="" class="navbar-brand fw-bold fs-4 text-xl-center"
               ><span class="brand-color" style="color: #fb3f6c"> PEBISINS </span
@@ -603,15 +673,15 @@
             </a>
           </div>
           <div
-            class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-around align-items-xl-center"
+            class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-around align-items-xl-center width-100"
           >
-            <span class="vl mx-1"></span>
+            <span class="vl mx-1 d-none xll-show"></span>
             <p class="m-0 text-center text-xl-start">
               &#169; Copyright. Pebisins Ulung.All rights reserved
             </p>
           </div>
           <div
-            class="col-12 col-xl-2 d-flex align-items-center justify-content-center"
+            class="col-12 col-xl-2 d-flex align-items-center justify-content-center width-100"
           >
             <div class="d-flex align-items-center column-gap-5">
               <p class="m-0">Privacy Policy</p>
@@ -619,7 +689,7 @@
             </div>
           </div>
           <div
-            class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-center align-items-center column-gap-4"
+            class="col-12 col-xl-3 d-flex justify-content-center justify-content-xl-center align-items-center column-gap-4 width-100"
           >
             <h6 class="m-0">Get in Touch</h6>
             <div
