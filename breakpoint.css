@@ -2,7 +2,28 @@ body {
   max-width: 1921px;
   margin: auto;
 }
-
+.bi-check-circle-fill {
+  font-size: 28px;
+}
+.datepicker-picker {
+  border-radius: 20px;
+  padding: 4px;
+}
+.datepicker-controls button {
+  padding: 4px;
+  border-radius: 4px;
+  color: white;
+  background-color: #ff6489;
+  border: none;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.datepicker-cell.selected {
+  background-color: #14183e;
+}
+.datepicker:hover {
+  color: #14183e;
+}
 .quote {
   width: 38px;
   height: 28px;
@@ -101,6 +122,7 @@ label {
   padding: 0px;
   font-size: 1.2rem;
 }
+
 @media screen and (max-width: 768px) {
   .btn-mobile {
     width: 50%;
@@ -213,8 +235,14 @@ label {
     width: 34px;
     height: 34px;
   }
-  .bg-world
-  {
+  .bg-world {
     height: 100%;
+  }
+  .why-choose-image {
+    width: 100%;
+  }
+  .bi-check-circle-fill
+  {
+    font-size: 20px;
   }
 }
